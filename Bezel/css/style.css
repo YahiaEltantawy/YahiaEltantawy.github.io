@@ -1,0 +1,138 @@
+body {
+    font-family:'Source Sans Pro', sans-serif;
+
+}
+
+nav {
+    
+    padding-top: 0px !important;
+    padding-bottom: 0 !important;
+}
+nav .container-fluid {
+    height: 80px;
+    border-bottom-color: rgba(0, 0, 0);
+    margin-right: 100px !important;
+    margin-left: 30px;
+
+}
+nav .container a {
+    color:white;
+}
+h1, h2, h3, h4, h5, h6 ,a {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.carousel1 {
+    background-image: url(../images/bg-image-28.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+.carousel2 {
+    background-image: url(../images/bg-image-29.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+.header-content {
+    padding-top: 300px;
+}
+
+.header-content h1 {
+
+    font-size: 100px;
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+     position: absolute;
+    top:0;
+    left:0;
+}
+
+
+.img-box {
+    overflow: hidden;
+}
+.img-box .overlay2 {
+    background-color: rgba(0,191,216,0.8);
+    height: 100%;
+    width: 100%;
+     position: absolute;
+    top:10%;
+    left:0;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.img-box:hover .overlay2 {
+top: 0;
+opacity: 1;
+}
+
+@media screen and (max-width:708px){
+    nav .socialize {
+        display: none !important;
+    }
+    
+.header-content {
+    padding-top: 200px;
+    
+}
+.header-content h1 {
+    font-size: 40px;
+
+}
+}
+.services .container .row .col-md-4 div h4 {
+    font-size: 38px ;
+}
+
+.services .container .row .col-md-4  p {
+font-size: 16px;
+}
+
+.points {
+    line-height: 3;
+}
+
+.prices {
+    background-color: #F5F5F5;
+}
+.pricing {
+    position: relative;
+}
+
+.pricing span {
+    position:  absolute;
+    top: 0;
+}
+.pros ul li {
+    line-height: 3;
+}
+.price-box {
+    background-color: white;
+}
+.test-box {
+    left:50%;
+    transform: translateX(-50%);
+    top:-40px;
+}
+.test-box img {
+    width: 100px;
+
+}
