@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5F5F5;
+ font-weight: 600;
+ margin:0;
+ padding: 0;
+ 
+}
+
+nav {
+    height: 80px;
+    background-color: white;
+}
+nav .navbar-brand {
+    font-size:30px ;
+}
+nav .container  .navbar-toggler {
+}
+
+header  {
+    background-image: url(../images/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+header .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+
+h1  {
+    font-size: 4.5rem;
+}
+header .intro-title {
+    font-size: 3.5rem;
+}
+header p{
+font-size:40px;
+}
+
+.about {
+    background-color: white;
+}
+.about .about-section .info p {
+font-weight: 200;
+}
+.about .about-section .info span {
+    font-weight: 500;
+
+}
+.about-text h5 {
+font-size: 32px ;
+}
+ 
+
+ .bord {
+    border:2px solid;
+    width: 3%;
+}
+.about-section .skills {
+    width: 100%;
+}
+.about-section .skills .progress-bar {
+    background-color: #0078ff;
+}
+.card {
+    background-color: #F5F5F5;
+}
+.spacer {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+ .spacer i {
+    border:8px solid #0078ff;
+    transition: all 0.2s;
+
+}
+.spacer:hover i {
+    background-color: #0078ff;
+    border:#CDE1F5 8px solid;
+    color:white;
+}
+
+.service-icon {
+   position: absolute;
+   bottom: 80%;
+   left:37%; 
+}
+
+.service h2 {
+    letter-spacing: 1rem;
+    font-weight: bold;
+    color:#CDE1F5
+}
+.service h3 {
+    font-weight: bold;
+
+    position: absolute;
+    top:2%;
+    left: 35%;
+}
+
+.counter {
+    background-image: url(/images/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.counter .overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #0078ff;
+    opacity: 0.7;
+
+
+}
+
+.counter .container .row .card .spacer i {
+    border:14px solid #CDE1F5;
+}
+.counter .container .spacer  {
+    background-color: white;
+    border-radius: 15px;
+    border:none;
+}
+/**/
+.portfolio .box .item .bord {
+    width: 12%;
+}
+.portfolio .container .card-body i {
+    border-width: 1px;
+
+}
+.portfolio .container .row .spacer:hover i {
+    
+    background-color:transparent;
+ }/*
+ @keyframes scaling {
+     0%{transform: scale(1)}
+     100%{transform:scale(1.3);animation-play-state: running;}
+     
+     
+ }*/
+ .portfolio .spacer img {
+     transition: all 1s;
+ }
+ .portfolio .spacer:hover img {
+    max-width: 100%;
+  
+    transform: scale(1.3);
+
+ }
+
+
+ /**/
+ 
+.slide-area {
+    background-image: url(/images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    padding: 120px 0;
+    position: relative;
+    margin: 120px 0;
+}
+
+
+.slide-area .overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #0078ff;
+    opacity: 0.6;
+    
+
+}
+
+.img-area {
+    width: 100px;
+    height: 100px;
+    margin:auto;
+    overflow: hidden;
+}
+.img-area img {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: static;
+    padding-bottom: 15px;
+    padding-top:0;
+}
+
+.carousel-caption h3 {
+font-size: 26px;
+margin-bottom: 15px;
+margin-top: 25px;
+}
+.carousel-caption i {
+    font-size: 26px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.carousel-caption p {
+font-size: 18px;
+margin:auto;
+width: 70%;
+margin-bottom: 10px;
+}
+
+.carousel-indicators {
+    bottom: -35px;
+    left:-34px;
+}
+
+/**/
+
+
+.blog .box .item .bord {
+    width: 12%;
+}
+.blog .container .card-body i {
+    border-width: 1px;
+
+}
+.blog .container .row .spacer:hover i {
+    
+    background-color:transparent;
+
+}
+.highlight {
+    top: -15px;
+    padding-top: 6px;
+    border-radius: 6px;
+   
+}
+.test {
+
+}
+.highlight h6 {
+    font-size:11px;
+}
+
+.img-card-footer {
+    width: 40px;
+    height: 40px;
+}
+.card-body .col-12 h3 a {
+    text-decoration: none;
+    font-size:20px;
+}
+/**/
+
+.contact-us {
+    
+    background-image: url(/images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:700px;
+    padding: 120px 0;
+    position: relative;
+}
+
+.contact-us .overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgba(0,120,255, 0.6);
+    
+
+}
+.contact-us .container{
+    background-color: white;
+}
+.form-group {
+    margin-bottom: 30px;
+}
+.form-group textarea {
+}
+
+.btn-box .btn {
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+}
+.contact-us .title-left {
+    font-size: 32px;
+    color:black;
+}
+.contact-us .bord {
+    border:2px solid;
+    width: 100px;
+}
+.socials {
+    margin-top: 30px;
+}
+.socials span {
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border-width: 4px;
+    border-style: solid;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    max-height: 100%;
+    max-width: 100%;
+}
+.socials .fa-facebook-f {
+}
+
+.socials span:hover {
+    background-color: #0078ff;
+    color:white;
+    border: 4px solid red;
+}
+.socials span:hover span {
+  
+
+}
+
+/**/
+
+footer {
+    height: 100px;
+    background-color: #0062D3;
+    color:white;
+    text-align:center;
+}
+@media screen and (max-width:768px) {
+ header h1 {
+     padding-top: 100px;
+     font-size: 40px !important;
+ }
+}
